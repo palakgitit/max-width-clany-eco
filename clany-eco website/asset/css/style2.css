@@ -665,7 +665,12 @@ border:  dotted 1px #282613;
 .g-title {
   text-align: center;
   font-family: var(--secondary-font);
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+}
+
+.g-title h2{
+
+  margin-bottom: 0px;
 }
 .h4-d{
   font-family: var(--font-family);
@@ -761,16 +766,13 @@ border:  dotted 1px #282613;
   width:100%;
   height: auto;
   border-radius: 30px;
-  
 }
 
 .ser-con-img{
   position: relative;
   margin-bottom: 10px;
 }
-
 .ser-con-img .icon-img{
-
   position: absolute;
   background-color: #F4F6F0;
   border-radius: 30px;
