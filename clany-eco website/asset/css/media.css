@@ -108,12 +108,12 @@
   }
   .l-dis{
 
-    font-size: 22px;
+    font-size: 20px;
   }
 
 .learn-sec p {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  /* font-weight: 500; */
 }
 
 .l-but{
@@ -121,6 +121,10 @@
   margin-top: -5px;
 }
 
+.form-content select{
+ 
+  width: 530px;
+}
 
 }
 
@@ -237,6 +241,12 @@ font-weight: 500;
   height: 650px;
  
 }
+
+
+.form-content select{
+ 
+  width: 530px;
+}
 }
 
 @media (max-width: 1199px) {
@@ -333,8 +343,14 @@ font-weight: 500;
 
 .form-fill{
  
-  height: 620px;
+  height: 680px;
  
+}
+
+
+.form-content select{
+ 
+  width: 430px;
 }
 }
 
@@ -474,6 +490,12 @@ font-weight: 500;
  
 }
 
+
+.form-content select{
+ 
+  width: 330px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -597,13 +619,23 @@ font-weight: 500;
 .form-fill{
  
   height: 660px;
- 
 }
+
+.form-content select{
+  width: 230px;
+}
+
+.blog-section{
+
+  margin-top: 370px;
+}
+
+
 }
 
 @media (max-width: 575px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
   .col-1 {
     width: 8.3333%;
@@ -683,11 +715,33 @@ font-weight: 500;
 
  .email-footer{
 
-   width: 100%;
+   width:380px;
+   /* padding:25px; */
+   margin:25px;
   }
 
   .review-next{
 
   display: none;
 } 
+
+
+.form-fill{
+ 
+  height: 700px;
+ 
+}
+.form-content select{
+ 
+  width: 230px;
+}
+
+.blog-section{
+
+  margin-top: 370px;
+}
+
+
+
+
 }

@@ -20,9 +20,9 @@
   --gw: 14px;
 }
 
-/* body::selection{
+body::selection{
   background-color:#6666665d;
-} */
+}
 
 .col-1 {
   width: 8.3333%;
@@ -1068,15 +1068,21 @@ border:  dotted 1px #282613;
 .bucket{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  
 }
+
+.bucket div {
+
+  margin-right: 30px;
+}
+
+
 .form-content label {
   font-size:14px;
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #44443f;
-
 }
 
 .form-content ::placeholder{
@@ -1143,8 +1149,8 @@ border:  dotted 1px #282613;
   display: inline-block;
 }
 .form-content input{
-  width: 260px;
-  margin-right:10px;
+  width: 100%;
+  margin-right:20px;
   margin-top: 10px;
   height: 40px;
   background-color: #ffffff;
@@ -1152,6 +1158,7 @@ border:  dotted 1px #282613;
   border-color:transparent;
   border-radius: 5px;
 }
+
 
 .form-img img{
   width: 100%;
@@ -1181,8 +1188,6 @@ border:  dotted 1px #282613;
   margin-top: 20px;
 }
 
-.form-mail
-
 
 
 
@@ -1196,9 +1201,9 @@ border:  dotted 1px #282613;
   background-color: transparent;
   padding-top: 50px;
   /* padding-left: 50px; */
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   border-radius: 60px;
-  height: 650px;
+  height: 550px;
   /* width: 1340px; */
 }
 
@@ -1227,7 +1232,7 @@ border:  dotted 1px #282613;
     background-color: rgb(248, 248, 248);
 }
 .que4{
-  height: auto;
+  height: 100%;
   margin-top: 20px;
 }
 
